@@ -30,7 +30,7 @@ Updating this package
 ---------------------
 
 This process requires installation of the package for development - the
-suggested method to do this is via the `Buildout` within this package:
+suggested method to do this is via the `Buildout` within this package::
 
     cd js.d3_cloud
     python boostrap.py
