@@ -40,7 +40,7 @@ For minification of resources to succeed, you require a Java installation as
 this process uses the YUI Compressor library (via the ``minify``
 and``yuicompressor`` Python packages).
 
-In order to obtain a newer version of of this library, do the following::
+In order to obtain a newer version of this library, do the following::
 
     pushd js/d3_cloud/resources
     wget https://github.com/jasondavies/d3-cloud/raw/master/d3.layout.cloud.js -O d3.layout.cloud.js
