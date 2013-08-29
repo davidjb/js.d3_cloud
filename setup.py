@@ -41,7 +41,7 @@ setup(
     install_requires=[
         'fanstatic',
         'setuptools',
-        'js.d3',
+        'js.d3>=3.0',
         ],
     entry_points={
         'fanstatic.libraries': [
