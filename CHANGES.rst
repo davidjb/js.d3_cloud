@@ -1,8 +1,8 @@
 CHANGES
 *******
 
-1.0.1-1 (unreleased)
-====================
+1.1.2 (2015-07-13)
+==================
 
 - Change to using iLanguage's fork of d3-cloud because it's now being
   maintained. This adds numerous features and fixes.  See
