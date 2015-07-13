@@ -7,7 +7,7 @@ Introduction
 This library packages the `D3 Word Cloud Layout`_ for `fanstatic`_.
 
 .. _`fanstatic`: http://fanstatic.org
-.. _`D3 Word Cloud Layout`: https://github.com/jasondavies/d3-cloud
+.. _`D3 Word Cloud Layout`: https://github.com/iLanguage/d3-cloud
 
 This requires integration between your web framework and ``fanstatic``,
 and making sure that the original resources (shipped in the ``resources``
@@ -43,8 +43,8 @@ and``yuicompressor`` Python packages).
 In order to obtain a newer version of this library, do the following::
 
     pushd js/d3_cloud/resources
-    wget https://github.com/jasondavies/d3-cloud/raw/master/d3.layout.cloud.js -O d3.layout.cloud.js
-    wget https://github.com/jasondavies/d3-cloud/raw/master/LICENSE -O LICENSE
+    wget https://github.com/iLanguage/d3-cloud/raw/master/src/d3.layout.cloud.js -O d3.layout.cloud.js
+    wget https://github.com/iLanguage/d3-cloud/raw/master/LICENSE -O LICENSE
     popd
     #Edit changelog, setup.py for versions, etc
     python setup.py minify_d3_cloud
